@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Review</title>
+</head>
+<body>
+    <script>
+        // var name = prompt("Enter your name: ");
+        // alert("Welcome, "+name);
+        function test(){
+            var score = prompt("Enter your score: ");
+        if(score>=180){
+            alert("Congrats");
+            clearInterval(x);
+        }else{
+            if(confirm("Sorry, do you want run again?")){
+                test();
+            }
+            // else{
+            //     return null;
+            // }
+        }
+        }
+
+        // test();
+
+        // var x = setInterval(test, 5000);
+
+        // function add(a,b){
+        //     return console.log(a+b);
+        // }
+
+        const add = (x,y) => console.log(x+y);
+        add(34,78);
+
+       
+
+    </script>
+</body>
+</html>
